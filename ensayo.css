@@ -1,0 +1,17 @@
+ul,li{
+    list-style-type: none;
+    padding: 0;
+    margin: 9px;
+}
+#cuerpo{
+    background-color:rgb(146, 153, 155);
+    width: 653px;
+    height: 592px;
+    border: solid 3px green;
+}
+#formulario{
+    padding-left: 15px;
+}
+#titulo{
+    padding-left: 10px;
+}

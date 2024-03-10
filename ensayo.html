@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ensayo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cuerpo">
+        <h1 id="titulo">Formulario</h1>
+        <form id="formulario">
+            <h4>todos los campos con * son obligatorios</h4>
+           <li id="nombre"> 
+            
+            <ul>
+                <li>
+                    <label >Nombre:</label> 
+                    <input type="text" name="nombre" id="nombre">
+                </li>
+                <li>
+                    <label >Apellido:</label> 
+                    <input type="text" name="apellido" id="apellido">
+                </li>
+                <li>
+                    <label >Fecha de nacimiento:</label> 
+                    <input type="date" name="fecha de nacimiento" id="fecha de nacimiento">
+                </li>
+                <li>
+                    <label >Correo:</label> 
+                    <input type="email" name="Correo" id="Correo">
+                </li>
+            </ul>
+
+           </li>
+            
+            <label for="pais" id="pais">Pais:</label>
+            <select name="paises" id="paises">
+                <option value="colombia">colombia</option>
+                <option value="peru">peru</option>
+                <option value="argentina">argentina</option>
+                <option value="españa">españa</option>
+            </select>
+           <li id="cajasexo">
+                <label>Sexo:</label>
+                <ul class="listasexo">
+                    <li><input type="radio" name="genero" id="genero_hombre"> <label for="genero_hombre">Hombre</label></li>
+                    <li><input type="radio" name="genero" id="genero_mujer"> <label for="genero_mujer">Mujer</label></li>
+                    <li><input type="radio" name="genero" id="genero_otro"> <label for="genero_otro">Otro</label></li>
+                </ul>
+            </li>
+            <li>
+                <label>Alergias:</label>
+                <ul class="Alergias">
+                    <li><input type="checkbox" name="alergia" id="alergia_pollo"> <label for="alergia_lacteos">Pollo</label></li>
+                    <li><input type="checkbox" name="alergia" id="alergia_leche"> <label for="alergia_pollo">Leche</label></li>
+                    <li><input type="checkbox" name="alergia" id="alergia_gluten"> <label for="alergia_gluten">Gluten</label></li>
+                    <li><input type="checkbox" name="alergia" id="alergia_frutossecos"> <label for="alergia_frutossecos">Frutos secos</label></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="terminos" id="terminos">
+                        <label for="terminos">Terminos y condiciones:</label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <input type="submit" value="Enviar">
+            </li>
+
+        </form>
+        
+
+    </div>
+    
+</body>
+</html>
